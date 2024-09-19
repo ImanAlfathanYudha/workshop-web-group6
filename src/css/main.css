@@ -15,6 +15,7 @@
 @import "./design-tokens.css" layer(global);
 
 @import "./global.css" layer(global);
+@import "./recipe-comp.css" layer(global);
 
 @import "./compositions/flow.css" layer(compositions);
 @import "./compositions/grid.css" layer(compositions);
