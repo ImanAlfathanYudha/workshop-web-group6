@@ -5,6 +5,15 @@
           line-height: 16.1px;
           text-align: left;
 }
+
+.title-recipe-category{
+  font-family: 'Inter';
+        font-size: 19.3px;
+        font-weight: 700;
+        line-height: 16.1px;
+        text-align: left;
+        padding-left: 10px;
+}
 .upload-date{
     font-size: var(--step--2); color: var(--color-neutral-400); 
           font-family: 'Inter';

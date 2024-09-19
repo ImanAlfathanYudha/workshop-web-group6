@@ -58,11 +58,11 @@ a:not([class]) {
   color: currentColor;
 }
 
-img,
+/* img,
 picture {
   max-width: 100%;
   display: block;
-}
+} */
 
 /* Inherit fonts for inputs and buttons */
 
@@ -86,7 +86,7 @@ textarea:not([rows]) {
   list-style: none;
 }
 
-.imageflex { display: flex; }
+.imageflex { display: flex; gap:9px }
 .imageflexcontent { margin-left: 5px; margin-top: 0; }
 .food-container {
   position: relative;
@@ -106,4 +106,23 @@ textarea:not([rows]) {
 
 .food-container:hover .bookmark-icon {
   opacity: 1;
+}
+
+.recipe-image {
+  height: 140px ;
+  width: 120px;
+}
+
+
+.chef-image {
+  height: 50px ;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.chef-name{
+font-size: 19.33px ;
+font-weight: 700;
+line-height: 16.1px;
+text-align: left;
 }
