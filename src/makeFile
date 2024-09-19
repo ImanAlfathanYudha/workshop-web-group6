@@ -1,0 +1,11 @@
+s:
+	git status
+
+add:
+	git add src/
+
+com:
+	git commit main -m " "
+
+push:
+	git push main

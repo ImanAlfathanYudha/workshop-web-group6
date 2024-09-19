@@ -1,0 +1,14 @@
+.doc-section {
+}
+
+.doc-section__header,
+.doc-section__content {
+  padding: var(--space-m);
+  max-width: var(--measure-l);
+  margin-inline: auto;
+}
+
+[data-doc-section-bleed="true"] .doc-section__content {
+  padding: 0;
+  max-width: none;
+}

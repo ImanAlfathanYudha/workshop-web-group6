@@ -1,0 +1,23 @@
+:root {
+  --measure-m: 65ch;
+  --measure-l: 80ch;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --uppercase-kerning: 0.04ch;
+
+  --leading-flat: 0.9;
+  --leading-fine: 1.2;
+  --leading-standard: 1.4;
+  --leading-loose: 1.7;
+
+  --border-radius-s: 0.125rem;
+  --border-radius-m: 0.25rem;
+  --border-radius-l: 0.5rem;
+
+  --background-color-document: var(--color-neutral-0);
+
+  --color-text-body: var(--color-neutral-1000);
+  --color-text-body-light: var(--color-neutral-300);
+}
